@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Aplikasi Sederhana',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.purple),
+        colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.deepPurple),
       ),
       home: const MyHomePage(title: 'Tugas kelompok 7'),
       routes: {
@@ -61,7 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
           onPressed: () {
             Navigator.pushNamed(context, '/user_list');
           },
-          child: Text('Show User List'),
+          child: Text('Show User List'
+          ),
         ),
       ),
     );
